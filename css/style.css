@@ -1,0 +1,195 @@
+.espaco1 {
+  height: 80px;
+}
+
+.titulo {
+  height: 80px;
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+  color: #363636;
+  font-size: 100px;
+  line-height: normal;
+}
+
+.descricao {
+  font-family: "Bebas Neue", sans-serif;
+  color: #b473b9;
+  font-size: 45px;
+  line-height: normal;
+  height: 60px;
+  text-align: center;
+}
+
+.descricao-container {
+  margin-right: 180px;
+}
+
+.descricao .texto-rapido {
+  position: absolute;
+  width: 215px;
+  transform: translate(-5px, -10px);
+}
+
+.mouse{
+  height: 350px;
+}
+
+.mouse img{
+  position: absolute;
+  z-index: 1;
+  width: 1050px;
+   height: 930px;
+  top: 65px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s ease;
+  opacity: 100%;
+  object-fit: cover;
+}
+
+.mouse2{
+  height: 350px;
+}
+
+.mouse2 img{
+  position: absolute;
+  z-index: 1;
+  width: 650px;
+  height: 530px;
+  top: 1005px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 1s ease;
+  opacity: 100%;
+  object-fit: cover;
+}
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 10;
+}
+
+#detalhes-container {
+  width: 212px;
+  height: 56px;
+  background-color: #b473b9;
+  border-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 11;
+  transition: all 1s ease;
+}
+
+#comprar-container {
+  width: 200px;
+  height: 56px;
+  border: 4px solid;
+  border-color: #b473b9;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+  transition: all 0.6s ease;
+  color: #b473b9;
+}
+
+#comprar-container:hover {
+  background-color: #b473b9;
+  color: #ffffff;
+}
+
+#ver-detalhes {
+  font-family: "Belanosima", sans-serif;
+  color: #ffffff;
+  font-size: 35px;
+  line-height: normal;
+}
+
+#comprar {
+  font-family: "Belanosima", sans-serif;
+  font-size: 35px;
+  line-height: normal;
+  margin-right: 5px;
+}
+
+#seta {
+  width: 20px;
+  height: 20px;
+  margin-top: 7px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.bannermouse1 {
+  background: linear-gradient(
+    180deg,
+    rgb(201, 151, 211) 12%,
+    rgba(201, 151, 211, 0.1) 100%
+  );
+}
+
+.bannermouse2 {
+  background: linear-gradient(
+    180deg,
+    rgb(166.82, 217.68, 241.19) 12%,
+    rgba(166, 217, 241, 0.1) 100%
+  );
+}
+
+.divisor {
+  height: 20px;
+}
+
+.espaco2 {
+  height: 45px;
+}
+
+.descricao2 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #38c9ff;
+  font-size: 45px;
+  line-height: normal;
+  text-align: center;
+}
+
+#botoes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  z-index: 10;
+}
+
+#detalhes-container2 {
+  width: 212px;
+  height: 56px;
+  background-color: #38c9ff;
+  border-radius: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 11;
+  transition: all 1s ease;
+}
+
+#comprar-container2 {
+  width: 200px;
+  height: 56px;
+  border: 4px solid;
+  border-color: #38c9ff;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 11;
+  transition: all 0.6s ease;
+  color: #38c9ff;
+}
+
+#comprar-container2:hover {
+  background-color: #38c9ff;
+  color: #ffffff;
+}
